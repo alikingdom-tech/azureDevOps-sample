@@ -23,7 +23,7 @@ stages:
       vmImage: 'ubuntu-latest'
     environment: 
       name: env2
-      resourceName: aa-vmsfortesting
+      resourceName: aa-vmfortesting
       resourceType: virtualmachine
     strategy:                  
       runOnce:
